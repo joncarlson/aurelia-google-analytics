@@ -1,0 +1,125 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "aurelia-google-analytics@git+https://git@github.com/joncarlson/aurelia-google-analytics.git",
+        "scope": null,
+        "escapedName": "aurelia-google-analytics",
+        "name": "aurelia-google-analytics",
+        "rawSpec": "git+https://git@github.com/joncarlson/aurelia-google-analytics.git",
+        "spec": "git+https://git@github.com/joncarlson/aurelia-google-analytics.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:joncarlson/aurelia-google-analytics.git",
+          "sshUrl": "git+ssh://git@github.com/joncarlson/aurelia-google-analytics.git",
+          "httpsUrl": "git+https://git@github.com/joncarlson/aurelia-google-analytics.git",
+          "gitUrl": "git://git@github.com/joncarlson/aurelia-google-analytics.git",
+          "shortcut": "github:joncarlson/aurelia-google-analytics",
+          "directUrl": "https://git@raw.githubusercontent.com/joncarlson/aurelia-google-analytics/master/package.json"
+        }
+      },
+      "/Users/einstine/MEGA/work/active-projects/successful-innovations/si-ui"
+    ]
+  ],
+  "_from": "git+https://git@github.com/joncarlson/aurelia-google-analytics.git",
+  "_id": "aurelia-google-analytics@2.0.0",
+  "_inCache": true,
+  "_location": "/aurelia-google-analytics",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "aurelia-google-analytics@git+https://git@github.com/joncarlson/aurelia-google-analytics.git",
+    "scope": null,
+    "escapedName": "aurelia-google-analytics",
+    "name": "aurelia-google-analytics",
+    "rawSpec": "git+https://git@github.com/joncarlson/aurelia-google-analytics.git",
+    "spec": "git+https://git@github.com/joncarlson/aurelia-google-analytics.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:joncarlson/aurelia-google-analytics.git",
+      "sshUrl": "git+ssh://git@github.com/joncarlson/aurelia-google-analytics.git",
+      "httpsUrl": "git+https://git@github.com/joncarlson/aurelia-google-analytics.git",
+      "gitUrl": "git://git@github.com/joncarlson/aurelia-google-analytics.git",
+      "shortcut": "github:joncarlson/aurelia-google-analytics",
+      "directUrl": "https://git@raw.githubusercontent.com/joncarlson/aurelia-google-analytics/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://git@github.com/joncarlson/aurelia-google-analytics.git#7da312032dc3cafe88f4f7326d746a0d540f9528",
+  "_shasum": "d85a54d1e66c1acb28d0d16ad23f7f929dc96c9a",
+  "_shrinkwrap": null,
+  "_spec": "aurelia-google-analytics@git+https://git@github.com/joncarlson/aurelia-google-analytics.git",
+  "_where": "/Users/einstine/MEGA/work/active-projects/successful-innovations/si-ui",
+  "author": {
+    "name": "Miguel Zakharia",
+    "email": "miguel@zakharia.me",
+    "url": "http://miguel.zakharia.me"
+  },
+  "bugs": {
+    "url": "https://github.com/miguelzakharia/aurelia-google-analytics/issues"
+  },
+  "dependencies": {},
+  "description": "An Aurelia plugin that adds Google Analytics page tracking to your application.",
+  "devDependencies": {
+    "aurelia-tools": "^1.0.0",
+    "babel-plugin-syntax-flow": "^6.8.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-es2015-modules-amd": "^6.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.11.6",
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "conventional-changelog": "^1.1.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-bump": "^2.2.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-yuidoc": "^0.1.2",
+    "jshint-stylish": "^1.0.0",
+    "object.assign": "^4.0.4",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.2.2",
+    "vinyl-paths": "^2.1.0",
+    "yargs": "^4.8.1"
+  },
+  "gitHead": "7da312032dc3cafe88f4f7326d746a0d540f9528",
+  "homepage": "https://github.com/miguelzakharia/aurelia-google-analytics",
+  "jspm": {
+    "main": "index",
+    "format": "amd",
+    "directories": {
+      "lib": "dist/amd"
+    },
+    "dependencies": {
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@^1.3.0",
+      "aurelia-event-aggregator": "npm:aurelia-event-aggregator@^1.0.1",
+      "aurelia-logging": "npm:aurelia-logging@^1.2.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^6.23.1",
+      "babel-runtime": "npm:babel-runtime@^6.23.0"
+    }
+  },
+  "keywords": [
+    "analytics",
+    "tracking",
+    "aurelia"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "aurelia-google-analytics",
+  "optionalDependencies": {},
+  "readme": "# Aurelia-Google-Analytics\nAn Aurelia plugin that adds Google Analytics page tracking to your application with just a small amount of configuration. Set it up once and forget about it.\n\nThis plugin was built based on [this](https://mjau-mjau.com/blog/ajax-universal-analytics/) blog post.\n\n## Getting Started\n\n* Install aurelia-google-analytics\n\n```bash\njspm install aurelia-google-analytics\n\n# or ...\nnpm install aurelia-google-analytics --save\n```\n\n* Use the plugin in your app's main.js:\n\n```javascript\nexport function configure(aurelia) {\n    aurelia.use.plugin('aurelia-google-analytics', config => {\n\t\t\tconfig.init('<Your Tracker ID>');\n\t\t\tconfig.attach({\n\t\t\t\tlogging: {\n\t\t\t\t\tenabled: true // Set to `true` to have some log messages appear in the browser console.\n\t\t\t\t},\n\t\t\t\tpageTracking: {\n\t\t\t\t\tenabled: true // Set to `false` to disable in non-production environments.\n\t\t\t\t},\n\t\t\t\tclickTracking: {\n\t\t\t\t\tenabled: true // Set to `false` to disable in non-production environments.\n\t\t\t\t}\n\t\t});\n\t\t\n    aurelia.start().then(a => a.setRoot());\n}\n```\n\nIn order to use the click tracking feature, each HTML element you want to track must contain a `data-analytics-category` and `data-analytics-action` attribute. `data-analytics-label` and `data-analytics-value` are supported and optional.\n\n## Building from source\n\nInstall dependencies\n\n```shell\nnpm install\n```\n\nThen\n\n```shell\ngulp build\n```\n\nThe result is 3 module formats separated by folder in `dist/`.\n\n## Dependencies\n\n* [aurelia-dependency-injection](https://github.com/aurelia/dependency-injection)\n* [aurelia-event-aggregator](https://github.com/aurelia/event-aggregator)\n* [aurelia-logging](https://github.com/aurelia/logging)\n* [aurelia-router](https://github.com/aurelia/router) _implicit dependency because this plugin listens to the router:navigation:success event_\n\n## Pull Requests\n\nYes, please!\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelzakharia/aurelia-google-analytics.git"
+  },
+  "version": "2.0.0"
+}
